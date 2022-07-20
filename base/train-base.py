@@ -177,7 +177,8 @@ def main():
     model.zero_grad()
     lbl_unlbl_dict = pickle.load(open(f'{args.split_root}/{args.dataset}_{args.lbl_percent}_{args.novel_percent}_{args.split_id}.pkl', 'rb'))
     total_samples = len(lbl_unlbl_dict['labeled_idx']) + len(lbl_unlbl_dict['unlabeled_idx'])
-    no_pl_perclass = int((args.pl_percent*total_samples)/(args.no_class*100))
+    # no_pl_perclass = int((args.pl_percent*total_samples)/(args.no_class*100))
+    no_pl_perclass = int((args.lbl_percent*total_samples)/(args.no_class*100))
     pl_dict, pl_acc, pl_no = pseudo_labeling(args, pl_loader, model, list(range(args.no_known, args.no_class)), no_pl_perclass)
     with open(os.path.join(args.out, 'pseudo_labels_base.pkl'),"wb") as f:
         pickle.dump(pl_dict,f)
