@@ -40,8 +40,11 @@ python3 train.py --dataset svhn --lbl-percent 10 --novel-percent 50 --arch resne
 ## Citation
 ```
 @inproceedings{rizve2022openldn,
-Title={OpenLDN: Learning to Discover Novel Classes for Open-World Semi-Supervised Learning},
-Author={Mamshad Nayeem Rizve and Navid Kardan and Salman Khan and Fahad Shahbaz Khan and Mubarak Shah},
-booktitle={European Conference on Computer Vision},
-Year={2022}
+  title={Openldn: Learning to discover novel classes for open-world semi-supervised learning},
+  author={Rizve, Mamshad Nayeem and Kardan, Navid and Khan, Salman and Shahbaz Khan, Fahad and Shah, Mubarak},
+  booktitle={European Conference on Computer Vision},
+  pages={382--401},
+  year={2022},
+  organization={Springer}
+}
 ```
