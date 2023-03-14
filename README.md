@@ -1,4 +1,7 @@
 # OpenLDN: Learning to Discover Novel Classes for Open-World Semi-Supervised Learning
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/openldn-learning-to-discover-novel-classes/open-world-semi-supervised-learning-on-cifar)](https://paperswithcode.com/sota/open-world-semi-supervised-learning-on-cifar?p=openldn-learning-to-discover-novel-classes)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/openldn-learning-to-discover-novel-classes/open-world-semi-supervised-learning-on-cifar-1)](https://paperswithcode.com/sota/open-world-semi-supervised-learning-on-cifar-1?p=openldn-learning-to-discover-novel-classes)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/openldn-learning-to-discover-novel-classes/open-world-semi-supervised-learning-on-1)](https://paperswithcode.com/sota/open-world-semi-supervised-learning-on-1?p=openldn-learning-to-discover-novel-classes)
 
 Implementation of [OpenLDN: Learning to Discover Novel Classes for Open-World Semi-Supervised Learning](https://arxiv.org/abs/2207.02261).
 
